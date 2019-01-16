@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Fresh design</title>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <link href="assest/css/font-awesome.css"rel="stylesheet">
+    <link rel="shorcut icon"type="image/png"href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtoG5c3zhzHJCP47BdZp1vAU3v-_9OkiMHJm06-0stoXdCn2mV">
+    <!--<link href="assest/css/bootstrap.css"rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylsheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=BenchNine|Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+      <style>
+      body
+      {
+        font-family: 'BenchNine', sans-serif
+        background-color: white;
+
+      }
+
+      .navbar-toggler-icon
+      {
+        color: black;
+      }
+       .my-navbar
+       {
+        color:  white;
+       }
+       #home
+       {
+         margin-top: 107px;
+         position: relative;
+         height: 100%;
+       }
+      section
+      {
+        min-height: 600px;
+        margin-top: 10px;
+        position: relative;
+      }
+       #home  h1
+       {
+         font-size:120px;
+         color: white;
+         font-family: 'BenchNine',sans-serif;
+         line-height:1.2;
+         font-weight:600;
+         padding-bottom: 0px;
+         margin-bottom: 0px;
+       }
+       #home p
+       {
+         font-size: 50px;
+         color:white;
+         margin-top: 0px;
+         font-family: 'BenchNine',sans-serif;
+         line-height: 1.2;
+       }
+
+       #home .crousel-caption
+       {
+         position:absolute;
+         top:35%;
+         left:15%;
+         width:100%;
+       }
+      .my-brand
+       {
+         color:black;
+         font-family: 'BenchNine',sans-serif;
+         font-size: 30px;
+         margin-left: 20px;
+         font-weight:bold;
+       }
+       #home .btn
+       {
+         font-size: 20px;
+         width:210px;
+         height: 50px;
+         padding: 0px;
+       }
+       nav ul
+       {
+
+         margin-right: 20px;
+       }
+       .carousel-item
+       {
+         height: 100%;
+       }
+       nav ul li a
+       {
+         color:black;
+         font-size: 25px;
+         text-transform: uppercase;
+         font-family: 'BenchNine',sans-serif;
+       }
+      .section-content
+      {
+        font-size:26px;
+        text-align:center;
+        font-family: 'BenchNine',sans-serif;
+        width: 100%;
+        color: #737373;
+        margin-top:-10px;
+        margin-bottom:20px;
+      }
+      .carousel-inner
+      {
+        height: 100%;
+      }
+      #service
+      {
+        margin-top:60px;
+        background-color: #42b3e5;
+      }
+      #service h2
+      {
+        margin-top: 70px;
+        color:#fff;
+      }
+      #service p
+      {
+        color: #fff;
+        margin-bottom: 70px;
+      }
+      .heading
+       {
+         width:100%;
+         font-size:90px;
+         font-family: 'BenchNine',sans-serif;
+         color:#42b3e5;
+         text-transform: uppercase;
+       }
+       .about-img img
+       {
+         width: 100%;
+         height: 100%;
+       }
+       .detail
+       {
+         position: relative;
+         background-color: #2A2A28;
+         border-top:2px solid #fff;
+         width:100%;
+         color: #fff;
+         height: 100%;
+         font-family: 'BenchNine', sans-serif;
+         box-sizing: border-box;
+
+       }
+       .detail h2
+       {
+         font-size: 40px;
+       }
+       .detail p
+       {
+         font-size: 20px;
+       }
+       .about-service
+       {
+         font-size: 25px;
+         font-family:'BenchNine', sans-serif;
+         margin-top: 10px;
+       }
+       .team-img img
+       {
+         width: 100%;
+         position:relative;
+
+       }
+       .img-detail p
+       {
+         font-size: 14px;
+         color: #fff;
+         font-family: 'Bechanine',sans-serif;
+         font-weight: 300;
+         margin: auto;
+
+       }
+       .img-detail h3
+       {
+         font-size: 23px;
+         color: #fff;
+         margin: 5px;
+         font-weight: 300;
+         font-family: 'Bechanine',sans-serif;
+
+       }
+        .img-detail
+        {
+            position: relative;
+            background-color: #3a9cc8;
+            height: 189px;
+            width:190px;
+            padding: 7px;
+        }
+       #team .col-md-2
+       {
+         padding:0px;
+         margin:0px;
+         width:100%;
+         position: relative;
+       }
+
+       #team
+       {
+         margin-top: 40px;
+       }
+       #mygooglemap
+       {
+         height: 580px;
+         width: 100%;
+         overflow: hidden;
+         background-color: #333;
+         position: relative;
+       }
+
+       .contact
+      {
+         /*position: absolute*/;
+         /*/background-color: rgba(0, 0, 0, 0.51)*/
+         height:580px;
+         width: 100%;
+         margin-top: -580px;
+       }
+       .contact> .container
+       {
+          height: 560px;
+
+       }
+       .contact>.container> .row
+       {
+          height: 560px;
+
+        }
+       .contact-caption
+       {
+         width: 1140px;
+         background-color: #3a9dca;
+         margin-top: 30px;
+         margin-bottom: 40px;
+       }
+       .contact h2
+       {
+         color:#fff;
+         font-size: 90px;
+         font-family: 'BenchNine',sans-serif;
+         text-align: center;
+         font-weight:300;
+       }
+        .info-detail>ol>li
+         {
+               color: #fff;
+               margin: 20px;
+         }
+          .contact h3
+          {
+            font-family: 'BenchNine',sans-serif;
+            color: #fff;
+            font-size: 35px;
+            font-weight: 500;
+          }
+          .contact .col-md-6
+          {
+            position: absolute;
+            top: 145px;
+            left: 50%;
+          }
+          .form
+          {
+            padding:15px;
+          }
+          .contact input
+          {
+            width: 80%;
+            height: 40px;
+            margin-bottom: 12px;
+
+          }
+          textarea
+          {
+            width: 80%;
+            height: 110px;
+          }
+          .contact .submit-btn
+          {
+            width: 51%;
+            margin-left: 50px;
+            height: 50px;
+            text-align: center;
+            font-size: 23px;
+            background-color: #1f1c1c;
+            color: #fff;
+            font-family: 'BenchNine',sans-serif;
+            font-weight: bold;
+            border: none;
+
+
+          }
+
+
+
+
+
+    /*.pentagon-text
+  {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 0;
+    height: 0px;
+    border-left: 36px solid transparent;
+    border-right: 34px solid transparent;
+    border-top: 15px solid #fff;
+  }*/
+
+
+
+        </style>
+    </head>
+    <body>
+
+<!-- Brand and toggle get grouped for better mobile display -->
+<nav class="navbar my-navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid">
+  <a class="navbar-brand my-brand" href="#">Busina</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon nav-toggle"><i class="fa-fa bars" aria-hidden="true"></i></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse flex-grow-0" id="navbarTogglerDemo02">
+    <ul class="navbar nav text-right">
+
+      <li class="nav-item active" >
+        <a class="nav-link" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">about us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#service">Our Service</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#team">Our Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact Us</a>
+      </li>
+    </ul>
+</div>
+  </div>
+</nav>
+<section id="home">
+  <div class="container-fluid">
+    <div class="row">
+  <div id="myCarousel" class="carousel slide bg-inverse w-100 ml-auto mr-auto" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://www.freshdesignweb.com/demo/template/ubusina/img/slide-one.jpg" alt="First slide">
+      <div class="crousel-caption">
+        <h1>TAX</h1>
+        <p>Good Business Consulting Service</p>
+        <button type="button" class="btn btn-primary">Learn More</button>
+
+    </div>
+  </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://www.freshdesignweb.com/demo/template/ubusina/img/slide-two.jpg" alt="Second slide">
+      <div class="crousel-caption">
+        <h1>FINANCIAL</h1>
+        <p>Good Business Consulting Service</p>
+                <button type="button" class="btn btn-primary">Learn More</button>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://www.freshdesignweb.com/demo/template/ubusina/img/slide-three.jpg" alt="Third slide">
+      <div class="crousel-caption">
+        <h1>CONSULATING</h1>
+        <p>Good Business Consulting Service</p>
+                <button type="button" class="btn btn-primary">Learn More</button>
+    </div>
+    </div>
+    <div class="carousel-item ">
+      <img class="d-block w-100" src="https://www.freshdesignweb.com/demo/template/ubusina/img/slide-four.jpg" alt="fourth slide">
+      <div class="crousel-caption">
+        <h1>MONEY</h1>
+        <p>Good Business Consulting service</p>
+          <button type="button" class="btn btn-primary">Learn More</button>
+    </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="about">
+  <div class="container-fluid">
+    <div class="row">
+      <h2 class="heading text-center">ABOUT US</h2>
+      <p class="section-content text-center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+        an unknown printer took a galley of type and scrambled</p>
+        <div class="container">
+          <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="about-img">
+          <img src="https://www.freshdesignweb.com/demo/template/ubusina/img/about1.jpg" class="img-responsive">
+          <div class="detail">
+          <div class="pentagon-text">
+
+            <h2 class=" text-center"> Tax Helping</h2>
+            <p class=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer.</p>
+
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="about-img">
+          <img src="https://www.freshdesignweb.com/demo/template/ubusina/img/about2.jpg" class="img-responsive">
+          <div class="detail">
+          <div class="pentagon-text">
+
+            <h2 class=" text-center">Business Consulting</h2>
+            <p class=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="about-img">
+          <img src="https://www.freshdesignweb.com/demo/template/ubusina/img/about3.jpg" class="img-responsive">
+          <div class="detail">
+          <div class="pentagon-text">
+
+            <h2 class=" text-center">Finance Consulting</h2>
+            <p class=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+          </div>
+          </div>
+        </div>
+        </div>
+
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="service">
+  <div class="container-fluid">
+    <div class="row">
+      <h2 class=" heading text-center">Our Service</h1>
+        <p class="section-content text-center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+</p>
+<div class="container">
+  <div class="row">
+   <div class="col-md-3 col-sm-6 ">
+     <div class="service">
+       <div class-"servic-img">
+         <img src="https://www.freshdesignweb.com/demo/template/ubusina/img/service1.png" class="img-responsive">
+         <div class="about-service">
+           <p class="text-center">Consulting</p>
+         </div>
+       </div>
+       </div>
+
+   </div>
+   <div class="col-md-3 col-sm-6">
+     <div class="service">
+       <div class-"servic-img">
+         <img src="https://www.freshdesignweb.com/demo/template/ubusina/img/service2.png" class="img-responsive">
+           <div class="about-service">
+             <p class="text-center">Financial</p>
+           </div>
+       </div>
+       </div>
+   </div>
+   <div class="col-md-3 col-sm-6">
+     <div class="service">
+       <div class-"servic-img">
+         <img src="https://www.freshdesignweb.com/demo/template/ubusina/img/service3.png" class="img-responsive">
+           <div class="about-service">
+             <p class="text-center">Tax Helping</p>
+           </div>
+       </div>
+       </div>
+       </div>
+   <div class="col-md-3 col-sm-6">
+     <div class="service">
+       <div class-"service-img">
+         <img src="https://www.freshdesignweb.com/demo/template/ubusina/img/service4.png" class="img-responsive">
+           <div class="about-service">
+             <p class="text-center">Money</p>
+           </div>
+       </div>
+       </div>
+   </div>
+ </div>
+</div>
+    </div>
+  </div>
+</section>
+<section id="team">
+  <div class="container">
+    <div class="row">
+      <h2 class=" heading text-center">Our team</h1>
+        <p class="section-content text-center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+
+  </p>
+
+
+    <div class="col-md-2 single-team">
+      <div class="team-img">
+      <img src="https://www.freshdesignweb.com/demo/template/ubusina/img/item1.jpg" class="img-responsive">
+    </div>
+    <div class="img-detail">
+      <div class="arrow-bottom"></div>
+        <h3 >Mr.Graham</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+
+  </div>
+  <div class="col-md-2 single-team">
+    <div class="img-detail">
+      <div class="arrow-bottom"></div>
+        <h3 >Mr. David</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+  </div>
+ <div class="team-img">
+<img src="https://www.freshdesignweb.com/demo/template/ubusina/img/item2.jpg" class="img-responsive">
+</div>
+</div>
+<div class="col-md-2 single-team">
+  <div class="team-img">
+  <img src="https://www.freshdesignweb.com/demo/template/ubusina/img/item3.jpg" class="img-responsive">
+</div>
+<div class="img-detail">
+  <div class="arrow-bottom"></div>
+    <h3>Mr. Hovid</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+</div>
+</div>
+
+  <div class="col-md-2 ">
+    <div class="img-detail">
+      <div class="arrow-bottom"></div>
+        <h3>Mr. Jasak</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+  </div>
+<div class="team-img">
+<img src="https://www.freshdesignweb.com/demo/template/ubusina/img/item4.jpg" class="img-responsive">
+</div>
+</div>
+    <div class="col-md-2">
+      <div class="team-img">
+      <img src="https://www.freshdesignweb.com/demo/template/ubusina/img/item5.jpg" class="img-responsive">
+    </div>
+    <div class="img-detail">
+      <div class="arrow-bottom"></div>
+        <h3>Mr. Joy Ka</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+    </div>
+
+      <div class="col-md-2">
+        <div class="img-detail">
+          <div class="arrow-bottom"></div>
+            <h3>Mr. Mikari</h3>
+            <p>Lorem Ipsum  simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          </div>
+
+    <div class="team-img">
+    <img src="https://www.freshdesignweb.com/demo/template/ubusina/img/item6.jpg" class="img-responsive">
+    </div>
+
+    </div>
+  </div>
+
+
+</section>
+
+<section id="contact">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+    <div id="mygooglemap">
+
+      </div>
+    </div>
+</div>
+</div>
+</section>
+<section class="contact">
+  <div  class="container">
+  <div class="row">
+    <div class="contact-caption clearfix">
+      <h2 class="center">CONTACT US</h2>
+      <div class="col-md-5 ">
+
+        <h3>CONTACT INFORMATION</h3>
+        <hr>
+        <div class="info-detail">
+          <ol>
+            <li><i class="fa fa-calendar-alt"></i>
+              <span>Monday - Friday: 9:30 AM to 6:30 PM</span>
+            </li>
+
+            <li><i class="fa fa-map-marker"></i>
+              <span>Address: 123 Some Street ,California, US, CP 123</span></li>
+
+              <li><i class="fa fa-phone"></i>
+                <span>Phone: (01) 999-1235</span></li>
+                <li><i class="fa fa-fax"></i>
+                  <span>Fax: (01) 999-1234</span></li>
+                  <li><i class="fa fa-envelope"></i>
+                        <span>Email: info@domain.com</span></li>
+              </ol>
+              <input class="submit-btn"name="submit"placeholder="SUBMIT">
+
+        </div>
+      </div>
+      <div class="col-md-6 col-md-offset-1">
+        <h3>LEAVE US MESSAGE</h3>
+        <hr>
+        <form class="form">
+          <input class="name" type="text" placeholder="Name">
+          <input class="email" type="email" placeholder="Email">
+          <input class="phone" type="text" placeholder="PhoneNo.">
+          <textarea class="message" name="message"id="message"cols="30"rows="10" placeholder="Message"></textarea>
+        </form>
+
+        </div>
+
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+<script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('mygooglemap'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+<script  src="https://maps.googleapis.com/maps/api/js?/key=AIzaSyBlo_nwUg7bqh0uKgHMuAeaUHOBST9PZz8&callback=initMap"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+            </body>
+</html>
